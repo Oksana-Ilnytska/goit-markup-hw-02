@@ -37,7 +37,7 @@ color: #2e2f42;
     font-style: normal;
 }
 
-.title {
+.main-title {
     font-weight: 700;
 font-size: 56px;
 line-height: 1.07143;
@@ -54,3 +54,52 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 }
+/*---Section Features----*/
+
+.title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.features-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/*------Section Our Team--------*/
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+.team-images {
+width: 264px;
+height: 260px;
+}
+
