@@ -51,24 +51,35 @@ color: #404bbf;
 
 .address-link:hover, .address-link:focus {color: #404bbf;}
 
+/*----Section 1----*/
+
+.section-title {background-color: #2e2f42;}
+
 .main-title {
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-background-color: #2e2f42;
 }
 
 .title-btn {
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
+cursor: pointer;
 color: #fff;
+background-color: #4D5AE5;
 }
-/*---Section Features----*/
+
+.title-btn:hover, .title-btn:focus {
+background-color: #404BBF;
+}
+
+/*---Section 2 Features----*/
 
 .title {
 font-weight: 700;
@@ -77,6 +88,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .features-subtitle {
@@ -94,7 +106,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-/*------Section Our Team--------*/
+/*------Section 3 Our Team--------*/
+.section-team {
+background-color: #F4F4FD;
+}
+ 
+.first-member-item {background-color: #FFFFFF;} 
+
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -117,6 +135,8 @@ width: 264px;
 height: 260px;
 }
 
+/*----Section 4 Our Portfolio----*/
+
 .portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -135,6 +155,12 @@ letter-spacing: 0.02em;
 .portfolio-images {
     width: 360px;
     height: 300px;
+}
+
+/*------Footer-------*/
+
+.footer {
+    background-color: #2e2f42; 
 }
 
 .footer-text {
