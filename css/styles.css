@@ -11,14 +11,15 @@ ul {list-style-type: none;}
 /*------Header--------*/
 
 .menu-link {
+color: #2e2f42;
+}
+
+.menu-link-change {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2e2f42;
-}
-
-.menu-link-change {color: #2e2f42;}
+    color: #2e2f42;}
 
 .menu-link-change:hover, .menu-link-change {
     color: #404bbf;
