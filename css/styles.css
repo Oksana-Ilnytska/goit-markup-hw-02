@@ -14,14 +14,15 @@ ul {list-style-type: none;}
 color: #2e2f42;
 }
 
-.menu-link-change {
+.menu-link {
+color: #2e2f42;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-    color: #2e2f42;}
+    }
 
-.menu-link-change:hover, .menu-link-change {
+.menu-link:hover, .menu-link:focus {
     color: #404bbf;
 }
 
@@ -139,11 +140,6 @@ letter-spacing: 0.02em;
 text-align: center;
 }
 
-.team-images {
-width: 264px;
-height: 260px;
-}
-
 /*----Section 4 Our Portfolio----*/
 
 .portfolio-subtitle {
@@ -159,11 +155,6 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-}
-
-.portfolio-images {
-    width: 360px;
-    height: 300px;
 }
 
 /*------Footer-------*/
